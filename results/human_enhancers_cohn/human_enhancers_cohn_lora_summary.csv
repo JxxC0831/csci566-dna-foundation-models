@@ -1,0 +1,4 @@
+dataset,exp_name,pooling,lora_r,lora_alpha,target_modules,head_lr,backbone_lr,epochs,test_loss,test_acc,test_f1,test_mcc
+human_enhancers_cohn,lora_wqkv_ffn_r8_mean,mean,8,16,Wqkv+gated_layers+wo,0.001,0.0001,15,0.5494110427728487,0.765831894070236,0.7657408150935217,0.5320776882189405
+human_enhancers_cohn,lora_wqkv_ffn_r8_max,max,8,16,Wqkv+gated_layers+wo,0.001,0.0001,15,0.561425231362975,0.7605066206102475,0.7602792084780357,0.5220045862290189
+human_enhancers_cohn,lora_wqkv_ffn_r8_cls,cls,8,16,Wqkv+gated_layers+wo,0.001,0.0001,15,0.5085561317861627,0.7648244099021301,0.7644025720119262,0.5315557445531872

@@ -1,0 +1,4 @@
+dataset,exp_name,pooling,lora_r,lora_alpha,target_modules,head_lr,backbone_lr,epochs,test_loss,test_acc,test_f1,test_mcc
+drosophila_enhancers_stark,lora_wqkv_ffn_r8_mean,mean,8,16,Wqkv+gated_layers+wo,0.001,0.0001,15,0.4858698219060898,0.791907514450867,0.791907514450867,0.5838150289017341
+drosophila_enhancers_stark,lora_wqkv_ffn_r8_max,max,8,16,Wqkv+gated_layers+wo,0.001,0.0001,15,0.5161680497906425,0.7427745664739884,0.734410938053598,0.519359864797205
+drosophila_enhancers_stark,lora_wqkv_ffn_r8_cls,cls,8,16,Wqkv+gated_layers+wo,0.001,0.0001,15,0.5327765521678057,0.7653179190751445,0.7649962995231537,0.5320942557450622

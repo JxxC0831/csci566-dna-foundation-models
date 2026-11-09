@@ -1,0 +1,39 @@
+# Model weights and caches
+dnabert2/
+embedding_cache/
+embedding_cache_lora/
+lora_adapter/
+*.npy
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Datasets
+data/
+.genomic_benchmarks/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+
+# Private project notes
+PROJECT_CONTEXT.md

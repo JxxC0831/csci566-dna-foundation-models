@@ -1,0 +1,16 @@
+# Pinned for DNABERT-2's custom modeling code; newer peft breaks with an EncoderDecoderCache import error.
+torch>=2.1
+transformers==4.40.0
+peft==0.10.0
+einops
+omegaconf
+evaluate
+accelerate
+scikit-learn
+genomic-benchmarks
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+ipywidgets

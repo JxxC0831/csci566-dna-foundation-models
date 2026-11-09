@@ -1,0 +1,19 @@
+dataset,exp_name,method_label,trainable_pct,test_acc,test_f1,test_mcc
+human_nontata_promoters,baseline_classifier_only,Frozen baseline,~0.17%,0.8496789904804074,0.8496647256679496,0.7157609457220501
+human_nontata_promoters,unfreeze_last4,Unfreeze last 4,~24%,0.942439672348904,0.9419778191462032,0.8839579827352174
+human_nontata_promoters,progressive_unfreeze_last4,Progressive unfreeze,~24%,0.9480850121762232,0.9477935571992696,0.895930959695812
+human_nontata_promoters,lora_wqkv_ffn_r8_mean,LoRA r=8 (mean pool),1.29%,0.942439672348904,0.942203080271389,0.8855128816996289
+human_nontata_promoters,lora_wqkv_ffn_r8_max,LoRA r=8 (max pool),1.29%,0.9438786805401816,0.9436751923524428,0.8888422481372774
+human_nontata_promoters,lora_wqkv_ffn_r8_cls,LoRA r=8 (cls pool),1.29%,0.9400044277175116,0.9397403884475488,0.8803917647937657
+human_enhancers_cohn,baseline_classifier_only,Frozen baseline,~0.17%,0.7492803684513529,0.7489956646158142,0.4996955936739709
+human_enhancers_cohn,unfreeze_last4,Unfreeze last 4,~24%,0.760650546919977,0.7605088555990891,0.5219190306836263
+human_enhancers_cohn,progressive_unfreeze_last4,Progressive unfreeze,~24%,0.7602187679907887,0.7601837156018043,0.5205897406752353
+human_enhancers_cohn,lora_wqkv_ffn_r8_mean,LoRA r=8 (mean pool),1.29%,0.765831894070236,0.7657408150935217,0.5320776882189405
+human_enhancers_cohn,lora_wqkv_ffn_r8_max,LoRA r=8 (max pool),1.29%,0.7605066206102475,0.7602792084780357,0.5220045862290189
+human_enhancers_cohn,lora_wqkv_ffn_r8_cls,LoRA r=8 (cls pool),1.29%,0.7648244099021301,0.7644025720119262,0.5315557445531872
+drosophila_enhancers_stark,baseline_classifier_only,Frozen baseline,~0.17%,0.7196531791907514,0.7084586093227226,0.4775045135798377
+drosophila_enhancers_stark,unfreeze_last4,Unfreeze last 4,~24%,0.7346820809248555,0.7244736401075499,0.5085595432864715
+drosophila_enhancers_stark,progressive_unfreeze_last4,Progressive unfreeze,~24%,0.7289017341040462,0.7194831578223151,0.4920351946520861
+drosophila_enhancers_stark,lora_wqkv_ffn_r8_mean,LoRA r=8 (mean pool),1.29%,0.791907514450867,0.791907514450867,0.5838150289017341
+drosophila_enhancers_stark,lora_wqkv_ffn_r8_max,LoRA r=8 (max pool),1.29%,0.7427745664739884,0.734410938053598,0.519359864797205
+drosophila_enhancers_stark,lora_wqkv_ffn_r8_cls,LoRA r=8 (cls pool),1.29%,0.7653179190751445,0.7649962995231537,0.5320942557450622

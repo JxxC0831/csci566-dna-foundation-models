@@ -1,0 +1,37 @@
+dataset,method,method_label,pooling,trainable_pct,test_acc,test_f1,test_mcc
+human_nontata_promoters,baseline_classifier_only,Baseline (frozen),mean,~0.17%,0.8496789904804074,0.8496647256679496,0.7157609457220501
+human_nontata_promoters,baseline_classifier_only,Baseline (frozen),max,~0.17%,0.8014168696037193,0.8012034510902963,0.6262133034340984
+human_nontata_promoters,baseline_classifier_only,Baseline (frozen),cls,~0.17%,0.8263227806065973,0.826285129295234,0.6702396070991181
+human_nontata_promoters,unfreeze_last4,Unfreeze last 4,mean,~24%,0.942439672348904,0.9419778191462032,0.8839579827352174
+human_nontata_promoters,unfreeze_last4,Unfreeze last 4,max,~24%,0.9559442107593537,0.9557005487735882,0.9117770207009522
+human_nontata_promoters,unfreeze_last4,Unfreeze last 4,cls,~24%,0.9294885986274076,0.9293466003952824,0.862195093873388
+human_nontata_promoters,progressive_unfreeze_last4,Progressive unfreeze,mean,~24%,0.9480850121762232,0.9477935571992696,0.895930959695812
+human_nontata_promoters,progressive_unfreeze_last4,Progressive unfreeze,max,~24%,0.9458711534204116,0.9457159840283348,0.8937178927384504
+human_nontata_promoters,progressive_unfreeze_last4,Progressive unfreeze,cls,~24%,0.9196369271640468,0.919549388138651,0.8447161749091652
+human_nontata_promoters,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),mean,1.29%,0.942439672348904,0.942203080271389,0.8855128816996289
+human_nontata_promoters,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),max,1.29%,0.9438786805401816,0.9436751923524428,0.8888422481372774
+human_nontata_promoters,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),cls,1.29%,0.9400044277175116,0.9397403884475488,0.8803917647937657
+human_enhancers_cohn,baseline_classifier_only,Baseline (frozen),mean,~0.17%,0.7492803684513529,0.7489956646158142,0.4996955936739709
+human_enhancers_cohn,baseline_classifier_only,Baseline (frozen),max,~0.17%,0.7137305699481865,0.7130555166525872,0.4294867004215993
+human_enhancers_cohn,baseline_classifier_only,Baseline (frozen),cls,~0.17%,0.7344559585492227,0.734414317319642,0.4690590278755534
+human_enhancers_cohn,unfreeze_last4,Unfreeze last 4,mean,~24%,0.760650546919977,0.7605088555990891,0.5219190306836263
+human_enhancers_cohn,unfreeze_last4,Unfreeze last 4,max,~24%,0.7576280944156591,0.7576200610592598,0.5152903471715975
+human_enhancers_cohn,unfreeze_last4,Unfreeze last 4,cls,~24%,0.7546056419113414,0.7546001060827949,0.5092342593594734
+human_enhancers_cohn,progressive_unfreeze_last4,Progressive unfreeze,mean,~24%,0.7602187679907887,0.7601837156018043,0.5205897406752353
+human_enhancers_cohn,progressive_unfreeze_last4,Progressive unfreeze,max,~24%,0.7525906735751295,0.7525906684500989,0.505181368079704
+human_enhancers_cohn,progressive_unfreeze_last4,Progressive unfreeze,cls,~24%,0.7484168105929764,0.7483897913217286,0.4969403609613199
+human_enhancers_cohn,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),mean,1.29%,0.765831894070236,0.7657408150935217,0.5320776882189405
+human_enhancers_cohn,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),max,1.29%,0.7605066206102475,0.7602792084780357,0.5220045862290189
+human_enhancers_cohn,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),cls,1.29%,0.7648244099021301,0.7644025720119262,0.5315557445531872
+drosophila_enhancers_stark,baseline_classifier_only,Baseline (frozen),mean,~0.17%,0.7196531791907514,0.7084586093227226,0.4775045135798377
+drosophila_enhancers_stark,baseline_classifier_only,Baseline (frozen),max,~0.17%,0.6988439306358382,0.691829707475334,0.4171293781531162
+drosophila_enhancers_stark,baseline_classifier_only,Baseline (frozen),cls,~0.17%,0.7283236994219653,0.7224342492445541,0.4773536765335516
+drosophila_enhancers_stark,unfreeze_last4,Unfreeze last 4,mean,~24%,0.7346820809248555,0.7244736401075499,0.5085595432864715
+drosophila_enhancers_stark,unfreeze_last4,Unfreeze last 4,max,~24%,0.8109826589595376,0.8106455043244161,0.6241920969894862
+drosophila_enhancers_stark,unfreeze_last4,Unfreeze last 4,cls,~24%,0.7682080924855491,0.7645028822283575,0.554136614727915
+drosophila_enhancers_stark,progressive_unfreeze_last4,Progressive unfreeze,mean,~24%,0.7289017341040462,0.7194831578223151,0.4920351946520861
+drosophila_enhancers_stark,progressive_unfreeze_last4,Progressive unfreeze,max,~24%,0.7676300578034682,0.7647930194805195,0.5486594638772659
+drosophila_enhancers_stark,progressive_unfreeze_last4,Progressive unfreeze,cls,~24%,0.7606936416184971,0.7551635729668752,0.5466666666666666
+drosophila_enhancers_stark,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),mean,1.29%,0.791907514450867,0.791907514450867,0.5838150289017341
+drosophila_enhancers_stark,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),max,1.29%,0.7427745664739884,0.734410938053598,0.519359864797205
+drosophila_enhancers_stark,lora_wqkv_ffn_r8,LoRA r=8 (Wqkv+FFN),cls,1.29%,0.7653179190751445,0.7649962995231537,0.5320942557450622
