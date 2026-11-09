@@ -53,6 +53,7 @@ results/
   lora_then_probe/                        Frozen vs. LoRA-tuned probing heatmaps and layer curves
 docs/
   566_Presentation.pdf                    Final class presentation (full group, all three models)
+PROJECT_CONTEXT.md                        Detailed project log (Chinese): design decisions, bugs, narrative evolution
 requirements.txt
 ```
 
